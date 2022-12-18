@@ -48,6 +48,18 @@ Variables
   --max-width: 1170px;
 }
 
+body {
+  background-image: url(../images/A2B5766D-2EC5-4123-BE81-8B8AD83D9E6C1.jpg);
+  padding: 0;
+  margin: 0;
+  background-size: cover;
+}
+
+.back {
+  background-color: #ffffff7b;
+  height: 800px;
+}
+
 /*
 =========
 navbar
@@ -58,10 +70,11 @@ img:not(.nav-logo) {
   display: block;
 }
 .nav {
-    display: block;
-    align-items: center;
-    height: 4rem;
-    transition: var(--transition);
+  background-color: #ffffff7b;
+  display: block;
+  align-items: center;
+  height: 4rem;
+  transition: var(--transition);
   
     .nav-center {
       display: flex;  
