@@ -166,28 +166,20 @@ SSO
 .SSO-btn a {
   /* Rectangle 5 */
   position: absolute;
-  width: 277px;
-  height: 79px;
-  left: calc(50% - 120px);
-  top: calc(50% + 5px);
-  font-family: "Lustria";
-  font-style: normal;
-  font-weight: bold;
-  font-size: 20px;
-  line-height: 26px;
-  display: flex;
-  align-items: flex-end;
-  text-align: center;
-  letter-spacing: 0.09em;
-  color: #46747E;
-}
-.SSO-btn p {
-  position: absolute;
-  width: 301px;
-  height: 106px;
-  left: calc(50% - 150.5px - 5.81px);
+  left: calc(50% - 150px);
   top: calc(50% - 53px + 54.5px);
-  background: #FFFFFF;
+  background: rgba(250, 255, 253, 0.9);
+  color: #46747E;
+  padding: 0.375rem 0.75rem;
+  letter-spacing: var(--spacing);
+  display: inline-block;
+  font-weight: 700;
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+  font-size: 18px;
+  border: 12px solid transparent;
+  cursor: pointer;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
 }
 
@@ -259,7 +251,7 @@ section
   top: calc(50% - 50px);
   font-family: "Lustria";
   font-style: normal;
-  font-size: 18px;
+  font-size: 14px;
   line-height: 10px;
   /* identical to box height */
   text-align: center;
