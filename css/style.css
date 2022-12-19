@@ -92,6 +92,7 @@ img:not(.nav-logo) {
 }
 .nav .nav-btn {
   position: flex;
+  margin: 2rem;
   background-color: transparent;
   border-color: transparent;
   font-size: 2rem;
@@ -259,7 +260,7 @@ section
   color: #7E7E7E;
 }
 
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 1800px) {
   .section-title {
     position: absolute;
     width: 250px;
