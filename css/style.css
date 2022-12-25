@@ -55,7 +55,7 @@ body {
 
 .back {
   background-color: rgba(255, 255, 255, 0.4823529412);
-  height: 1480px;
+  height: 1280px;
 }
 
 /*
@@ -238,7 +238,6 @@ section
   font-weight: 400;
   font-size: 14px;
   line-height: 18px;
-  /* identical to box height */
   text-align: center;
   letter-spacing: 0.09em;
   color: #F4FBFF;
@@ -254,7 +253,6 @@ section
   font-style: normal;
   font-size: 14px;
   line-height: 10px;
-  /* identical to box height */
   text-align: center;
   letter-spacing: 0.15em;
   color: #7E7E7E;
@@ -272,7 +270,6 @@ section
     font-weight: 400;
     font-size: 24px;
     line-height: 31px;
-    /* identical to box height */
     text-align: center;
     letter-spacing: 0.15em;
     color: #355C65;
@@ -289,7 +286,6 @@ section
     font-weight: 400;
     font-size: 10px;
     line-height: 13px;
-    /* identical to box height */
     text-align: center;
     letter-spacing: 0.09em;
     color: #F0F0F0;
@@ -305,7 +301,6 @@ section
     font-weight: 400;
     font-size: 10px;
     line-height: 13px;
-    /* identical to box height */
     text-align: center;
     letter-spacing: 0.09em;
     color: #F0F0F0;
@@ -321,7 +316,6 @@ section
     font-weight: 400;
     font-size: 14px;
     line-height: 18px;
-    /* identical to box height */
     text-align: center;
     letter-spacing: 0.09em;
     color: #F4FBFF;
@@ -338,7 +332,6 @@ section
     font-weight: 1000;
     font-size: 18px;
     line-height: 23px;
-    /* identical to box height */
     text-align: center;
     letter-spacing: 0.15em;
     color: #7E7E7E;
@@ -356,7 +349,6 @@ section
     font-weight: 400;
     font-size: 24px;
     line-height: 31px;
-    /* identical to box height */
     text-align: center;
     letter-spacing: 0.15em;
     color: #355C65;
@@ -373,7 +365,6 @@ section
     font-weight: 400;
     font-size: 10px;
     line-height: 13px;
-    /* identical to box height */
     text-align: center;
     letter-spacing: 0.09em;
     color: #F0F0F0;
@@ -389,7 +380,6 @@ section
     font-weight: 400;
     font-size: 10px;
     line-height: 13px;
-    /* identical to box height */
     text-align: center;
     letter-spacing: 0.09em;
     color: #F0F0F0;
@@ -405,7 +395,6 @@ section
     font-weight: 400;
     font-size: 14px;
     line-height: 18px;
-    /* identical to box height */
     text-align: center;
     letter-spacing: 0.09em;
     color: #F4FBFF;
@@ -422,7 +411,6 @@ section
     font-weight: 1000;
     font-size: 18px;
     line-height: 23px;
-    /* identical to box height */
     text-align: center;
     letter-spacing: 0.15em;
     color: #7E7E7E;
@@ -440,7 +428,6 @@ section
     font-weight: 400;
     font-size: 24px;
     line-height: 31px;
-    /* identical to box height */
     text-align: center;
     letter-spacing: 0.15em;
     color: #355C65;
@@ -457,7 +444,6 @@ section
     font-weight: 400;
     font-size: 10px;
     line-height: 13px;
-    /* identical to box height */
     text-align: center;
     letter-spacing: 0.09em;
     color: #F0F0F0;
@@ -473,7 +459,6 @@ section
     font-weight: 400;
     font-size: 10px;
     line-height: 13px;
-    /* identical to box height */
     text-align: center;
     letter-spacing: 0.09em;
     color: #F0F0F0;
@@ -489,7 +474,6 @@ section
     font-weight: 400;
     font-size: 14px;
     line-height: 18px;
-    /* identical to box height */
     text-align: center;
     letter-spacing: 0.09em;
     color: #F4FBFF;
@@ -506,7 +490,6 @@ section
     font-weight: 1000;
     font-size: 18px;
     line-height: 23px;
-    /* identical to box height */
     text-align: center;
     letter-spacing: 0.15em;
     color: #7E7E7E;
@@ -524,7 +507,6 @@ section
     font-weight: 400;
     font-size: 24px;
     line-height: 31px;
-    /* identical to box height */
     text-align: center;
     letter-spacing: 0.15em;
     color: #355C65;
@@ -541,7 +523,6 @@ section
     font-weight: 400;
     font-size: 10px;
     line-height: 13px;
-    /* identical to box height */
     text-align: center;
     letter-spacing: 0.09em;
     color: #F0F0F0;
@@ -557,7 +538,6 @@ section
     font-weight: 400;
     font-size: 10px;
     line-height: 13px;
-    /* identical to box height */
     text-align: center;
     letter-spacing: 0.09em;
     color: #F0F0F0;
@@ -573,7 +553,6 @@ section
     font-weight: 400;
     font-size: 14px;
     line-height: 18px;
-    /* identical to box height */
     text-align: center;
     letter-spacing: 0.09em;
     color: #F4FBFF;
@@ -591,7 +570,6 @@ section
     font-weight: 1000;
     font-size: 18px;
     line-height: 23px;
-    /* identical to box height */
     text-align: center;
     letter-spacing: 0.15em;
     color: #7E7E7E;

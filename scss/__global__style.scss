@@ -57,7 +57,7 @@ body {
 
 .back {
   background-color: #ffffff7b;
-  height: 1480px;
+  height: 1280px;
 }
 
 /*
@@ -103,17 +103,17 @@ img:not(.nav-logo) {
       color:#1F4950;
       cursor: pointer;
     }
-  }
+}
   
-  .navbar-fixed {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: white;
-    z-index: 5;
-    box-shadow: var(--light-shadow);
-  }
+.navbar-fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  z-index: 5;
+  box-shadow: var(--light-shadow);
+}
 
   /*
 =============== 
