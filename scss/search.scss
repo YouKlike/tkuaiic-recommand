@@ -9,7 +9,7 @@
       background: #FDFFFF;
       font-size: 20px;
       border-radius: 3px;
-      
+      border: 3px white;
     }
   
     ::placeholder {
@@ -26,136 +26,290 @@
   
       color: #AFAFAF;
     }
+
+    box {
+        cursor: pointer;
+        position: absolute;
+        width: 69.08px;
+        height: 45px;
+        left: calc(50% - 69.08px/2 + 295.46px);
+        top: calc(50% - 45px/2 - 85.5px);
+
+        background: rgba(78, 111, 109, 0.66);
+        border-radius: 3px;
+
+        p {
+            position: relative;
+            top: -4px;
+            left: 15px;
+
+            font-family: 'Lustria';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 21px;
+            /* identical to box height */
+
+            display: flex;
+            align-items: center;
+            text-align: center;
+            letter-spacing: 0.09em;
+
+            color: #F4FBFF;
+        }
+    }
 }
 
 .card {
     position: absolute;
-    width: 209px;
-    height: 128px;
-    left: calc(50% - 209px/2 - 478.5px);
+    display: grid;
+    left: calc(50% - 209px/2 - 535.5px);
     top: calc(50% - 128px/2 + 97.5px);
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 6rem;
     cursor: pointer;
 
-    .card-title {
-        position: absolute;
-        margin: 1.5rem;
-        top: -0.5rem;
+    .card1 {
+        .card-title {
+            position: absolute;
+            margin: 1.5rem;
 
-        font-family: 'Jost';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 10px;
-        line-height: 12px;
-        /* identical to box height, or 120% */
+            font-family: 'Jost';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 10px;
+            line-height: 12px;
+            /* identical to box height, or 120% */
 
-        display: flex;
-        align-items: center;
-        letter-spacing: 0.15em;
+            display: flex;
+            align-items: center;
+            letter-spacing: 0.15em;
 
-        color: #545454;
+            color: #545454;
+        }
+        .card-text {
+            position: absolute;
+            margin: 2.5rem;
+            font-family: 'Macondo Swash Caps';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 19px;
+            /* identical to box height */
+
+            display: flex;
+            align-items: center;
+            letter-spacing: 0.15em;
+
+            color: #355C65;
+        }
+        .card-judge {
+            position: absolute;
+            top: 1.3rem;
+            margin: 2.5rem;
+            font-family: 'Lustria';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 21px;
+            /* identical to box height */
+
+            display: flex;
+            align-items: center;
+            text-align: center;
+            letter-spacing: 0.15em;
+
+            color: #4E6F6D;
+        }
+
+        .card-name {
+            position: absolute;
+            margin: 2.5rem;
+            top: 2.8rem;
+            font-family: 'Macondo Swash Caps';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 14px;
+            display: flex;
+            align-items: center;
+            letter-spacing: 0.15em;
+
+            color: #81A2A8;
+        }
+        .card-analyze {
+            position: absolute;
+            top: 5.8rem;
+            font-family: 'Lustria';
+            font-weight: 400;
+            font-size: 8px;
+            line-height: 12px;
+            /* identical to box height, or 150% */
+
+            display: flex;
+            align-items: right;
+            text-align: right;
+            letter-spacing: 0.15em;
+
+            color: #999999;
+        }
+        .btn {
+            position: grid;
+            object-fit: cover;
+            background: #FDFCFF;
+            color: #46747E;
+            width: 209px;
+            height: 100px;
+            letter-spacing: var(--spacing);
+            display: inline-block;
+            font-weight: 700;
+            -webkit-transition: var(--transition);
+            transition: var(--transition);
+            border: 12px solid transparent;
+            cursor: pointer;
+            border-radius: 15px 0px 0px 15px;
+        }
+    
+        .btn-like {
+            position: absolute;
+            object-fit: cover;
+            width: 57px;
+            height: 124px;
+    
+            background: #87CEF6;
+            border-radius: 0px 15px 15px 0px;
+        }
+    
+        i {
+            position: relative;
+            object-fit: cover;
+            top: -3rem;
+            left: 1rem;
+            font-size: 20px;
+            bottom: 8.33%;
+        } 
     }
-    .card-text {
-        position: absolute;
-        margin: 2.5rem;
-        font-family: 'Macondo Swash Caps';
-        font-style: normal;
-        font-weight: 600;
-        font-size: 16px;
-        line-height: 19px;
-        /* identical to box height */
 
-        display: flex;
-        align-items: center;
-        letter-spacing: 0.15em;
+    .card2 {
+        .card-title {
+            position: absolute;
+            margin: 1.5rem;
 
-        color: #355C65;
+            font-family: 'Jost';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 10px;
+            line-height: 12px;
+            /* identical to box height, or 120% */
+
+            display: flex;
+            align-items: center;
+            letter-spacing: 0.15em;
+
+            color: #545454;
+        }
+        .card-text {
+            position: absolute;
+            margin: 2.5rem;
+            font-family: 'Macondo Swash Caps';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 19px;
+            /* identical to box height */
+
+            display: flex;
+            align-items: center;
+            letter-spacing: 0.15em;
+
+            color: #355C65;
+        }
+        .card-judge {
+            position: absolute;
+            top: 15.3rem;
+            margin: 2.5rem;
+            font-family: 'Lustria';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 21px;
+            /* identical to box height */
+
+            display: flex;
+            align-items: center;
+            text-align: center;
+            letter-spacing: 0.15em;
+
+            color: #4E6F6D;
+        }
+
+        .card-name {
+            position: absolute;
+            margin: 2.5rem;
+            top: 16.8rem;
+            font-family: 'Macondo Swash Caps';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 14px;
+            display: flex;
+            align-items: center;
+            letter-spacing: 0.15em;
+
+            color: #81A2A8;
+        }
+        .card-analyze {
+            position: absolute;
+            top: 19.8rem;
+            font-family: 'Lustria';
+            font-weight: 400;
+            font-size: 8px;
+            line-height: 12px;
+            /* identical to box height, or 150% */
+
+            display: flex;
+            align-items: right;
+            text-align: right;
+            letter-spacing: 0.15em;
+
+            color: #999999;
+        }
+        .btn {
+            position: grid;
+            object-fit: cover;
+            background: #FDFCFF;
+            color: #46747E;
+            width: 209px;
+            height: 100px;
+            letter-spacing: var(--spacing);
+            display: inline-block;
+            font-weight: 700;
+            -webkit-transition: var(--transition);
+            transition: var(--transition);
+            border: 12px solid transparent;
+            cursor: pointer;
+            border-radius: 15px 0px 0px 15px;
+        }
+    
+        .btn-like {
+            position: absolute;
+            object-fit: cover;
+            width: 57px;
+            height: 124px;
+    
+            background: #AAE9DA;
+            border-radius: 0px 15px 15px 0px;
+        }
+    
+        i {
+            position: relative;
+            object-fit: cover;
+            font-size: 20px;
+            top: -3rem;
+            left: 1rem;
+            bottom: 8.33%;
+        } 
     }
-    .card-judge {
-        position: absolute;
-        top: 1.3rem;
-        margin: 2.5rem;
-        font-family: 'Lustria';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 21px;
-        /* identical to box height */
-
-        display: flex;
-        align-items: center;
-        text-align: center;
-        letter-spacing: 0.15em;
-
-        color: #4E6F6D;
-    }
-
-    .card-name {
-        position: absolute;
-        margin: 2.5rem;
-        top: 2.8rem;
-        font-family: 'Macondo Swash Caps';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 12px;
-        line-height: 14px;
-        display: flex;
-        align-items: center;
-        letter-spacing: 0.15em;
-
-        color: #81A2A8;
-    }
-    .card-analyze {
-        position: absolute;
-        left: 2.2rem;
-        top: 5.8rem;
-        font-family: 'Lustria';
-        font-weight: 400;
-        font-size: 8px;
-        line-height: 12px;
-        /* identical to box height, or 150% */
-
-        display: flex;
-        align-items: center;
-        text-align: right;
-        letter-spacing: 0.15em;
-
-        color: #999999;
-    }
-
-    .btn {
-        position: grid;
-        object-fit: cover;
-        background: #FDFCFF;
-        color: #46747E;
-        width: 209px;
-        height: 100px;
-        letter-spacing: var(--spacing);
-        display: inline-block;
-        font-weight: 700;
-        -webkit-transition: var(--transition);
-        transition: var(--transition);
-        border: 12px solid transparent;
-        cursor: pointer;
-        border-radius: 15px 0px 0px 15px;
-    }
-
-    .btn-like {
-        position: absolute;
-        object-fit: cover;
-        width: 57px;
-        height: 124px;
-        top: 0;
-        left: 14.6rem;
-
-        background: #87CEF6;
-        border-radius: 0px 15px 15px 0px;
-    }
-
-    i {
-        position: absolute;
-        font-size: 20px;
-        top: 3.2rem;
-        left: 15.6rem;
-        bottom: 8.33%;
-    }
+    
 }
