@@ -58,13 +58,33 @@
             color: #F4FBFF;
         }
     }
+    .look {
+        position: absolute;
+        word-wrap: nowrap;
+        width: 163px;
+        height: 31px;
+        left: calc(50% - 163px/2);
+        top: calc(50% - 31px/2 - 45.5px);
+
+        font-family: 'Lustria';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 31px;
+        /* identical to box height */
+
+        text-align: center;
+        letter-spacing: 0.15em;
+
+        color: #545454;
+    }
 }
 
 .card {
     position: absolute;
     display: grid;
-    left: calc(50% - 209px/2 - 535.5px);
-    top: calc(50% - 128px/2 + 97.5px);
+    left: calc(50% - 209px/2 - 580px);
+    top: calc(50% - 128px/2 + 70.5px);
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     grid-gap: 6rem;
@@ -141,6 +161,7 @@
         .card-analyze {
             position: absolute;
             top: 5.8rem;
+            padding-left: 3.5rem;
             font-family: 'Lustria';
             font-weight: 400;
             font-size: 8px;
@@ -262,6 +283,7 @@
         .card-analyze {
             position: absolute;
             top: 19.8rem;
+            padding-left: 3.5rem;
             font-family: 'Lustria';
             font-weight: 400;
             font-size: 8px;

@@ -96,7 +96,7 @@ img:not(.nav-logo) {
   
     .nav-btn {
       position: flex;
-      margin: 2rem;
+      margin-top: 4rem;
       background-color: transparent;
       border-color: transparent;
       font-size: 2rem;
@@ -115,60 +115,62 @@ img:not(.nav-logo) {
   box-shadow: var(--light-shadow);
 }
 
-  /*
+/*
 =============== 
 Sidebar
 ===============
 */
 
 .sidebar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: var(--clr-grey-10);
-    display: grid;
-    justify-content: center;
-    align-items: center;
-    transform: translateX(-100%);
-  
-    &-links {
-      text-align: center;
-      
-      a {
-        font-size: 2rem;
-        text-transform: capitalize;
-        color: var(--clr-grey-5);
-        letter-spacing: var(--spacing);
-  
-        &:hover {
-          color: var(--clr-primary-5);
-        }
-      }
-    }
-  
-    .close-btn {
-      position: absolute;
-      top: 1rem;
-      right: 1rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--clr-grey-10);
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  transform: translateX(-100%);
+
+  &-links {
+    text-align: center;
+    
+    a {
       font-size: 2rem;
-      background-color: transparent;
-      border-color: transparent;
-      color: #bb2525;
-      cursor: pointer;
-      transition: var(--transition);
-      transform: translateX(-100%);
-  
+      text-transform: capitalize;
+      color: var(--clr-grey-5);
+      letter-spacing: var(--spacing);
+
       &:hover {
-        color: #e66b6b;
+        color: var(--clr-grey-5);
       }
     }
   }
-  
-  .show-sidebar {
-    transform: translateX(0); 
+
+  .close-btn {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 2rem;
+    background-color: transparent;
+    border-color: transparent;
+    color: #bb2525;
+    cursor: pointer;
+    transition: var(--transition);
+    transform: translateX(-100%);
+
+    &:hover {
+      color: #e66b6b;
+    }
   }
+
+  
+}
+
+.show-sidebar {
+  transform: translateX(0); 
+}
 
 /*
 ===========

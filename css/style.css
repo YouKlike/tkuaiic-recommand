@@ -92,7 +92,7 @@ img:not(.nav-logo) {
 }
 .nav .nav-btn {
   position: flex;
-  margin: 2rem;
+  margin-top: 4rem;
   background-color: transparent;
   border-color: transparent;
   font-size: 2rem;
@@ -137,7 +137,7 @@ Sidebar
   letter-spacing: var(--spacing);
 }
 .sidebar-links a:hover {
-  color: var(--clr-primary-5);
+  color: var(--clr-grey-5);
 }
 .sidebar .close-btn {
   position: absolute;
