@@ -17,10 +17,26 @@
 </head>
 
 <body>  
-  <nav class="nav" id="nav">
+  <!-- navbar -->
+  <nav class="nav" id="main">
     <div class="nav-center">
-      <!-- nav-links -->
-      <ul class="nav-links">
+      <button class="nav-btn">
+        <i class="fa-solid fa-bars" onclick="openNav()"></i>
+      </button>
+      
+      <button class="nav-btn">
+        <i class="fa-regular fa-user"></i>
+      </button>
+    </div>
+  </nav>
+  <!-- end of navbar -->
+  <!-- sidebar -->
+  <aside class="sidebar" id="mySidenav">
+    <div>
+      <button class="close-btn" id="close-btn">
+        <i class="fa-solid fa-times" onclick="closeNav()"></i>
+      </button>
+      <ul>
         <li>
           <a href="index.html">我的收藏</a>
         </li>
@@ -34,15 +50,10 @@
           <a href="contact.html">網頁導覽</a>
         </li>
       </ul>
-      <button class="nav-btn" id="nav-btn">
-        <i class="fa-solid fa-bars"></i>
-      </button>
-      <button class="nav-btn">
-        <i class="fa-regular fa-user"></i>
-      </button>
     </div>
-  </nav>
-  <section class="back">
+  </aside>
+  <!-- end of sidebar -->
+  <section class="back" id="backNav">
     <div class="section-title">
     <p>淡江大學選課推薦系統</p>
     </div>
@@ -58,7 +69,7 @@
         <p class="look">大家都在看..</p>
     </div>
   </section>
-  <section class="card">
+  <section class="card" id="cardNav">
     <div class="card1">
       <h5 class="card-title">3853</h5>
       <p class="card-text">人際關係與溝通</p>
@@ -150,7 +161,7 @@
     
   </section>
 
-
-
+  <script src="./js/script.js"></script>
+  
 </body>
 </html>
