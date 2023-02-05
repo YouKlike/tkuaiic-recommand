@@ -16,10 +16,25 @@
 </head>
 
 <body>  
-  <nav class="nav" id="nav">
+  <nav class="nav" id="main">
     <div class="nav-center">
-      <!-- nav-links -->
-      <ul class="nav-links">
+      <button class="nav-btn">
+        <i class="fa-solid fa-bars" onclick="openNav()"></i>
+      </button>
+      
+      <button class="nav-btn">
+        <i class="fa-regular fa-user"></i>
+      </button>
+    </div>
+  </nav>
+  <!-- end of navbar -->
+  <!-- sidebar -->
+  <aside class="sidebar" id="mySidenav">
+    <div>
+      <button class="close-btn" id="close-btn">
+        <i class="fa-solid fa-times" onclick="closeNav()"></i>
+      </button>
+      <ul>
         <li>
           <a href="index.html">我的收藏</a>
         </li>
@@ -33,14 +48,8 @@
           <a href="contact.html">網頁導覽</a>
         </li>
       </ul>
-      <button class="nav-btn" id="nav-btn">
-        <i class="fa-solid fa-bars"></i>
-      </button>
-      <button class="nav-btn">
-        <i class="fa-sharp fa-solid fa-house"></i>
-      </button>
     </div>
-  </nav>
+  </aside>
   <section class="back">
     <div class="section-title">
     <p>淡江大學選課推薦系統</p>
@@ -59,7 +68,7 @@
       <a href="#">淡江大學單一登入(SSO)</a>
     </div>
   </section>
-
+  <script src="./js/script.js"></script>
 
 </body>
 </html>
