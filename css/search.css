@@ -70,7 +70,7 @@
     display: grid;
     left: calc(50% - 104.5px - 580px);
     top: calc(50% - 64px + 70.5px);
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     grid-gap: 6rem;
     cursor: pointer;
